@@ -32,7 +32,7 @@
     .hero {
       position:relative; overflow:hidden; text-align:center; color:white; padding:5rem 1rem;
       border-radius:0 0 28px 28px;
-      background:linear-gradient(120deg,#0d6efdcc,#198754cc),url('outdoor run.jpg') center/cover;
+      background:linear-gradient(120deg,#0d6efdcc,#198754cc),url('https://images.unsplash.com/photo-1552674605-db6ffd4facb5?auto=format&fit=crop&w=1600&q=85') center/cover;
     }
     .hero h1,.hero p { position:relative; z-index:1; }
     .hero.compact { padding:3rem 1rem; background:linear-gradient(120deg,#0d6efd,#198754); }
@@ -55,12 +55,12 @@
     .progress-bar { transition:width .5s; font-weight:700; }
     .login-screen {
       min-height:calc(100vh - 60px); display:flex; align-items:center; justify-content:center;
-      padding:2rem 1rem; background:linear-gradient(120deg,#174e69bb,#111827bb),url('image/login bac.jpg') center/cover fixed;
+      padding:2rem 1rem; background:linear-gradient(120deg,#174e69bb,#111827bb),url('https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1600&q=85') center/cover fixed;
     }
     .login-card { width:100%; max-width:390px; border:0; border-radius:22px; padding:2rem; background:#ffffffed; color:#212529; box-shadow:0 12px 35px #0005; }
     .home-screen {
       min-height:calc(100vh - 60px); display:flex; align-items:center; justify-content:center; padding:2rem 1rem;
-      background:linear-gradient(120deg,#174e69bb,#111827bb),(img src="images/login-home2.jpg") center/cover fixed;
+      background:linear-gradient(120deg,#174e69bb,#111827bb),url('https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1600&q=85') center/cover fixed;
     }
     .home-card { max-width:760px; width:100%; text-align:center; color:white; padding:2.5rem; border-radius:22px; background:#ffffff24; backdrop-filter:blur(10px); box-shadow:0 10px 30px #0004; }
     .home-card h1 { color:#ffd43b; font-weight:800; }
@@ -99,7 +99,7 @@
     .dark-mode-toggle {width:40px;height:40px;border-radius:50%;background:#ffffff20;}
     .hero {
       color:#fff; text-align:left; padding:3.2rem 0 2.8rem; border-radius:0 0 34px 34px;
-      background:linear-gradient(115deg,#536f54ee,#78966be8 55%,#d98291e8),url('outdoor-run-workout.jpg') center/cover;
+      background:linear-gradient(115deg,#536f54ee,#78966be8 55%,#d98291e8),url('https://images.unsplash.com/photo-1552674605-db6ffd4facb5?auto=format&fit=crop&w=1600&q=85') center/cover;
       box-shadow:0 12px 30px #4c654426;
     }
     .hero h1 {font-size:clamp(2rem,4vw,3.1rem); letter-spacing:-1px;}
@@ -124,9 +124,9 @@
     .progress-bar {border-radius:30px;background:linear-gradient(90deg,#91a982,#d98b9b)!important;}
     .food-img,.workout-img {height:180px;border-radius:16px;}
     .login-screen,.home-screen {
-      background:linear-gradient(120deg,#536f54d9,#d98291bb),url('image/login background.jpg') center/cover fixed;
+      background:linear-gradient(120deg,#536f54d9,#d98291bb),url('https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1600&q=85') center/cover fixed;
     }
-    .home-screen {background:linear-gradient(120deg,#536f54d9,#d98291bb),url('image/login-home.jpg') center/cover fixed;}
+    .home-screen {background:linear-gradient(120deg,#536f54d9,#d98291bb),url('https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1600&q=85') center/cover fixed;}
     .home-card {border:1px solid #ffffff55;background:#ffffff2b;border-radius:30px;}
     .home-card h1 {color:#fff4e9;}
     .login-card {border-radius:28px;background:#fffdf9;}
@@ -170,7 +170,7 @@
     <div class="home-card">
       <h1>🏋️ Welcome to Student Fitness Tracker</h1>
       <p class="lead">A simple way for students to keep track of workouts, meals and everyday activity.</p>
-      <img class="home-photo" src="image/login-home2.jpg" alt="Fitness activity" onerror="this.style.display='none'">
+      <img class="home-photo" src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=1600&q=85" alt="Fitness activity" onerror="this.style.display='none'">
       <p class="fw-bold mb-4">FITNESS THAT FITS EVERY BODY!</p>
       <button class="btn btn-gradient btn-lg" onclick="showPage('login')">Login <i class="bi bi-arrow-right ms-1"></i></button>
     </div>
@@ -242,9 +242,9 @@
   <header class="hero compact"><h1 class="fw-bold">💪 Workout Plans</h1><p class="lead mb-0">Choose an activity and record your completed minutes.</p></header>
   <div class="container mt-4">
     <div class="row g-4">
-      <div class="col-md-4"><div class="app-card"><img class="workout-img" src="image/outdoor-run-workout.jpg" alt="Outdoor run" onerror="this.style.display='none'"><h5 class="mt-3 fw-bold">Outdoor Run</h5><p class="text-muted">Cardio • 20 minutes • Moderate</p><div class="progress mb-3"><div class="progress-bar bg-success" id="progressRun" style="width:0%">0%</div></div><button class="btn btn-primary w-100" onclick="startWorkout('progressRun',20,'cardio')">Start Workout</button></div></div>
-      <div class="col-md-4"><div class="app-card"><img class="workout-img" src="image/workout-html.jpg" alt="Strength training" onerror="this.style.display='none'"><h5 class="mt-3 fw-bold">Full-Body Strength</h5><p class="text-muted">Strength • 30 minutes • Moderate</p><div class="progress mb-3"><div class="progress-bar bg-warning" id="progressStrength" style="width:0%">0%</div></div><button class="btn btn-primary w-100" onclick="startWorkout('progressStrength',30,'strength')">Start Workout</button></div></div>
-      <div class="col-md-4"><div class="app-card"><img class="workout-img" src="image/yoga.jpg" alt="Yoga" onerror="this.style.display='none'"><h5 class="mt-3 fw-bold">Yoga Flow</h5><p class="text-muted">Mobility • 25 minutes • Easy</p><div class="progress mb-3"><div class="progress-bar bg-info" id="progressYoga" style="width:0%">0%</div></div><button class="btn btn-primary w-100" onclick="startWorkout('progressYoga',25,'yoga')">Start Workout</button></div></div>
+      <div class="col-md-4"><div class="app-card"><img class="workout-img" src="https://images.unsplash.com/photo-1552674605-db6ffd4facb5?auto=format&fit=crop&w=1600&q=85" alt="Outdoor run" onerror="this.style.display='none'"><h5 class="mt-3 fw-bold">Outdoor Run</h5><p class="text-muted">Cardio • 20 minutes • Moderate</p><div class="progress mb-3"><div class="progress-bar bg-success" id="progressRun" style="width:0%">0%</div></div><button class="btn btn-primary w-100" onclick="startWorkout('progressRun',20,'cardio')">Start Workout</button></div></div>
+      <div class="col-md-4"><div class="app-card"><img class="workout-img" src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1600&q=85" alt="Strength training" onerror="this.style.display='none'"><h5 class="mt-3 fw-bold">Full-Body Strength</h5><p class="text-muted">Strength • 30 minutes • Moderate</p><div class="progress mb-3"><div class="progress-bar bg-warning" id="progressStrength" style="width:0%">0%</div></div><button class="btn btn-primary w-100" onclick="startWorkout('progressStrength',30,'strength')">Start Workout</button></div></div>
+      <div class="col-md-4"><div class="app-card"><img class="workout-img" src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=1000&q=85" alt="Yoga" onerror="this.style.display='none'"><h5 class="mt-3 fw-bold">Yoga Flow</h5><p class="text-muted">Mobility • 25 minutes • Easy</p><div class="progress mb-3"><div class="progress-bar bg-info" id="progressYoga" style="width:0%">0%</div></div><button class="btn btn-primary w-100" onclick="startWorkout('progressYoga',25,'yoga')">Start Workout</button></div></div>
     </div>
     <div class="app-card mt-4 text-center"><h4 class="section-title">Workout Summary</h4><div class="row"><div class="col-sm-6"><h6>Total Minutes</h6><p class="display-6 fw-bold text-primary" id="totalMinutes">0</p></div><div class="col-sm-6"><h6>Cardio Sessions</h6><p class="display-6 fw-bold text-primary" id="totalCardio">0</p></div></div></div>
     <div class="row g-4 mt-1"><div class="col-md-6"><div class="chart-panel"><h5 class="text-center">Workout Breakdown</h5><div class="chart-wrap"><canvas id="workoutChart"></canvas></div></div></div><div class="col-md-6"><div class="chart-panel"><h5 class="text-center">Weekly Workout Minutes</h5><div class="chart-wrap"><canvas id="weeklyWorkoutChart"></canvas></div></div></div></div>
@@ -256,9 +256,9 @@
   <header class="hero compact"><h1 class="fw-bold">🥗 Nutrition Tracker</h1><p class="lead mb-0">Record meals and view a simple nutrition summary.</p></header>
   <div class="container mt-4">
     <div class="row g-4">
-      <div class="col-md-4"><div class="app-card"><img class="food-img" src="image/healthy-breakfast.jpg" alt="Healthy breakfast" onerror="this.style.display='none'"><h5 class="mt-3 fw-bold">Healthy Breakfast</h5><p class="text-muted">Oats, fruits, milk • 350 kcal</p><button class="btn btn-success w-100" onclick="addMeal('Healthy Breakfast',350,50,15,10)">Log Meal</button></div></div>
-      <div class="col-md-4"><div class="app-card"><img class="food-img" src="image/lunch.jpg" alt="Balanced lunch" onerror="this.style.display='none'"><h5 class="mt-3 fw-bold">Balanced Lunch</h5><p class="text-muted">Rice, chicken, vegetables • 600 kcal</p><button class="btn btn-success w-100" onclick="addMeal('Balanced Lunch',600,70,30,20)">Log Meal</button></div></div>
-      <div class="col-md-4"><div class="app-card"><img class="food-img" src="image/dinner.jpg" alt="Light dinner" onerror="this.style.display='none'"><h5 class="mt-3 fw-bold">Light Dinner</h5><p class="text-muted">Soup, salad • 400 kcal</p><button class="btn btn-success w-100" onclick="addMeal('Light Dinner',400,40,20,15)">Log Meal</button></div></div>
+      <div class="col-md-4"><div class="app-card"><img class="food-img" src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=1000&q=85" alt="Healthy breakfast" onerror="this.style.display='none'"><h5 class="mt-3 fw-bold">Healthy Breakfast</h5><p class="text-muted">Oats, fruits, milk • 350 kcal</p><button class="btn btn-success w-100" onclick="addMeal('Healthy Breakfast',350,50,15,10)">Log Meal</button></div></div>
+      <div class="col-md-4"><div class="app-card"><img class="food-img" src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=1000&q=85" alt="Balanced lunch" onerror="this.style.display='none'"><h5 class="mt-3 fw-bold">Balanced Lunch</h5><p class="text-muted">Rice, chicken, vegetables • 600 kcal</p><button class="btn btn-success w-100" onclick="addMeal('Balanced Lunch',600,70,30,20)">Log Meal</button></div></div>
+      <div class="col-md-4"><div class="app-card"><img class="food-img" src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1000&q=85" alt="Light dinner" onerror="this.style.display='none'"><h5 class="mt-3 fw-bold">Light Dinner</h5><p class="text-muted">Soup, salad • 400 kcal</p><button class="btn btn-success w-100" onclick="addMeal('Light Dinner',400,40,20,15)">Log Meal</button></div></div>
     </div>
     <div class="app-card mt-4 text-center"><h4 class="section-title mb-3">Nutrition Summary</h4><div class="row"><div class="col-md-6"><h6>Total Calories Logged</h6><p class="display-6 fw-bold" id="totalCalories">0</p><div class="progress"><div class="progress-bar bg-success" id="calorieProgress" style="width:0%">0%</div></div></div><div class="col-md-6"><h6>Total Meals Logged</h6><p class="display-6 fw-bold" id="totalMeals">0</p></div></div></div>
     <div class="row g-4 mt-1"><div class="col-md-6"><div class="chart-panel"><h5 class="text-center">Macronutrient Breakdown</h5><div class="chart-wrap"><canvas id="macroChart"></canvas></div></div></div><div class="col-md-6"><div class="chart-panel"><h5 class="text-center">Weekly Calories Trend</h5><div class="chart-wrap"><canvas id="weeklyCaloriesChart"></canvas></div></div></div></div>
